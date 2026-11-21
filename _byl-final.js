@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const API_KEY = 'sk-O6VOrmnzk575ILtT7BokiV9bIYH9yubwyhiKLrC5uHHR9Qdf';
 const OUT = 'd:/Users/HBuilderProjects/婺韵新生/embroidery-gen-flow/assets';
-   //test houlixie 55
+   //test houlixie 55 555555
 const PROMPT = '金华八咏楼婺绣刺绣老绣片，博物馆实拍质感。'
   + '主体：三重檐歇山顶楼阁，朱红立柱，黑色瓦面翘檐，正中有"八咏楼"金字匾额，左侧青松假山庭院。'
   + '构图：左右对称，主体居中，下方有石砌台基。'
