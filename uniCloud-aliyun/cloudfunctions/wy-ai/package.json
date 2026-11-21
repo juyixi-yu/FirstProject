@@ -1,0 +1,8 @@
+{
+	"name": "wy-ai",
+	"version": "1.0.0",
+	"main": "index.js",
+	"description": "绣韵焕兴 AI 纹样生成：智谱 CogView 文生图",
+	"dependencies": {},
+	"extensions": {}
+}

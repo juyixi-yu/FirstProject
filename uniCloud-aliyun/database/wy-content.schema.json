@@ -1,0 +1,33 @@
+{
+	"bsonType": "object",
+	"required": ["key", "data"],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "文档 ID，自动生成"
+		},
+		"key": {
+			"bsonType": "string",
+			"title": "页面标识",
+			"description": "取值：index / exhibition / custom / pattern / classroom / mall"
+		},
+		"version": {
+			"bsonType": "int",
+			"title": "内容版本"
+		},
+		"updatedAt": {
+			"bsonType": "string",
+			"title": "更新时间"
+		},
+		"data": {
+			"bsonType": "object",
+			"title": "页面内容",
+			"description": "该页面的全部文案、列表与图片文件名"
+		}
+	}
+}

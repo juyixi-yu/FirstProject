@@ -1,0 +1,24 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["time"],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"time": {
+			"bsonType": "string",
+			"description": "体验时段，24 小时制，如 10:00、14:00"
+		},
+		"sort": {
+			"bsonType": "int",
+			"description": "排序号，数字越小越靠前"
+		}
+	}
+}

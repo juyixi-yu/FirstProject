@@ -1,0 +1,8 @@
+{
+	"name": "wy-content",
+	"version": "1.0.0",
+	"main": "index.js",
+	"description": "绣韵焕兴小程序内容接口",
+	"dependencies": {},
+	"extensions": {}
+}

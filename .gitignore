@@ -1,0 +1,8 @@
+unpackage/
+.DS_Store
+.hbuilderx/
+node_modules/
+embroidery-gen-flow/
+embroidery-restore-flow/
+.trae/
+.trae-html-share-packages/

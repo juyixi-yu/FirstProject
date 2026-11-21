@@ -1,0 +1,177 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "绣韵焕兴"
+			}
+		},
+		{
+			"path": "pages/exhibition/exhibition",
+			"style": {
+				"navigationBarTitleText": "婺绣数字展馆"
+			}
+		},
+		{
+			"path": "pages/custom/custom",
+			"style": {
+				"navigationBarTitleText": "匠心·智绘定制"
+			}
+		},
+		{
+			"path": "pages/pattern-export/pattern-export",
+			"style": {
+				"navigationBarTitleText": "刺绣底稿导出"
+			}
+		},
+		{
+			"path": "pages/pattern/pattern",
+			"style": {
+				"navigationBarTitleText": "数字纹样库"
+			}
+		},
+		{
+			"path": "pages/classroom/classroom",
+			"style": {
+				"navigationBarTitleText": "非遗美育课堂"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "智能文创商城"
+			}
+		},
+		{
+			"path": "pages/metal/metal",
+			"style": {
+				"navigationBarTitleText": "文物纹样提取"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/diy/diy",
+			"style": {
+				"navigationBarTitleText": "线上刺绣DIY"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order-confirm/order-confirm",
+			"style": {
+				"navigationBarTitleText": "订单确认",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/favorites/favorites",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/product-detail/product-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my-custom/my-custom",
+			"style": {
+				"navigationBarTitleText": "我的定制",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/custom-detail/custom-detail",
+			"style": {
+				"navigationBarTitleText": "定制详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/study-records/study-records",
+			"style": {
+				"navigationBarTitleText": "学习记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/zhihui/zhihui",
+			"style": {
+				"navigationBarTitleText": "智绘刺绣",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "绣韵焕兴",
+		"navigationBarBackgroundColor": "#F2EADC",
+		"backgroundColor": "#F2EADC"
+	},
+	"tabBar": {
+		"color": "#9A8F85",
+		"selectedColor": "#C08A1E",
+		"backgroundColor": "#FFFBF3",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/mall/mall",
+				"text": "商城",
+				"iconPath": "static/tabbar/mall.png",
+				"selectedIconPath": "static/tabbar/mall-active.png"
+			},
+			{
+				"pagePath": "pages/zhihui/zhihui",
+				"text": "智绘刺绣",
+				"iconPath": "static/tabbar/custom.png",
+				"selectedIconPath": "static/tabbar/custom-active.png"
+			},
+			{
+				"pagePath": "pages/classroom/classroom",
+				"text": "学堂",
+				"iconPath": "static/tabbar/classroom.png",
+				"selectedIconPath": "static/tabbar/classroom-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

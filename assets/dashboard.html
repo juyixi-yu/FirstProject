@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+	* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
+	body { width: 1440px; height: 900px; background: linear-gradient(160deg, #241D16 0%, #3A2C1C 55%, #241C12 100%); padding: 44px 56px; color: #F2EADC; }
+	.head { display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 1px solid rgba(212,175,55,.35); padding-bottom: 18px; }
+	.head h1 { font-size: 32px; letter-spacing: 6px; color: #F6E6AE; font-weight: 700; }
+	.head h1 span { font-size: 15px; letter-spacing: 2px; color: #C9B47E; margin-left: 14px; font-weight: 400; }
+	.head .date { font-size: 14px; color: #A99263; letter-spacing: 2px; }
+	.grid { display: flex; flex-wrap: wrap; gap: 26px; margin-top: 36px; }
+	.cell { width: calc(33.33% - 18px); background: rgba(246,230,174,.06); border: 1px solid rgba(212,175,55,.30); border-radius: 16px; padding: 34px 32px 28px; position: relative; overflow: hidden; }
+	.cell::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: linear-gradient(180deg,#F6E6AE,#C99A3B); }
+	.cell .label { font-size: 16px; color: #C9B47E; letter-spacing: 3px; }
+	.cell .num { font-size: 56px; font-weight: 700; color: #F6E6AE; margin-top: 14px; font-family: Georgia, serif; line-height: 1; }
+	.cell .num small { font-size: 20px; color: #D4AF37; margin-left: 6px; font-family: "Microsoft YaHei", sans-serif; }
+	.cell .sub { font-size: 14px; color: #8F7B54; margin-top: 14px; letter-spacing: 1px; }
+	.note { margin-top: 38px; padding: 22px 30px; border: 1px dashed rgba(212,175,55,.4); border-radius: 14px; font-size: 15px; color: #C9B47E; letter-spacing: 2px; line-height: 30px; }
+	.badge { display:inline-block; font-size: 13px; color:#8FD08F; border:1px solid rgba(127,191,127,.45); border-radius: 999px; padding: 2px 14px; margin-left: 10px; }
+</style>
+</head>
+<body>
+	<div class="head">
+		<h1>绣韵焕兴 · 运营数据<span>婺地焕彩 · 文旅融合专项</span></h1>
+		<div class="date">数据周期：2026 年度 · 更新于 2026-11-08</div>
+	</div>
+
+	<div class="grid">
+		<div class="cell"><div class="label">文旅合作点位</div><div class="num">14<small>处</small></div><div class="sub">双龙洞 · 古子城等文旅点位</div></div>
+		<div class="cell"><div class="label">体验套装售出</div><div class="num">1300<small>余件</small></div><div class="sub">景区非遗体验区累计售出</div></div>
+		<div class="cell"><div class="label">非遗课程服务</div><div class="num">1800<small>余人</small></div><div class="sub">游客及亲子家庭</div></div>
+		<div class="cell"><div class="label">城市记忆礼盒</div><div class="num">420<small>件/月</small></div><div class="sub">本地文创集合店稳定供货</div></div>
+		<div class="cell"><div class="label">社区公益体验</div><div class="num">9<small>场</small></div><div class="sub">走进金华各街道社区</div></div>
+		<div class="cell"><div class="label">服务社区居民</div><div class="num">310<small>余人次</small></div><div class="sub">亲子科普 · 简易绣制体验</div></div>
+	</div>
+
+	<div class="note">
+		景区共建婺绣非遗体验区，常态化开设体验教学，面向游客普及婺绣技艺、展示婺州 IP 文创<span class="badge">获评景区「非遗特色体验项目」</span><br>
+		实现非遗文化价值与文旅经济价值双向转化，持续提升承载婺州文脉的婺绣品牌影响力
+	</div>
+</body>
+</html>

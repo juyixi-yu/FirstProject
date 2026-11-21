@@ -1,0 +1,234 @@
+[
+  {
+    "key": "index",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "images": {
+        "hero": "hero.jpg",
+        "custom": "ai-draft.jpg",
+        "pattern": "pattern-restore.jpg",
+        "classroom": "video-cover.jpg",
+        "mall": "pendant-hero.jpg",
+        "metal": "metal-cover.jpg"
+      },
+      "hero": {
+        "eyebrow": "非物质文化遗产·婺绣",
+        "brand": "绣韵焕兴",
+        "slogan": "针线守匠心 · 科技传非遗",
+        "desc": "非遗婺绣，科技传承。以智能产品引流、数字体验转化，让百年婺绣走进当下。",
+        "cta": "进入数字展馆"
+      },
+      "nfc": [
+        { "no": "01", "name": "看故事", "desc": "碰一碰弹出婺绣百年历史的 AR 影像" },
+        { "no": "02", "name": "看投影", "desc": "全息投影重现明朝婺绣场景与经典纹样" },
+        { "no": "03", "name": "学针法", "desc": "弹出对应步骤视频，随身私教随时学" },
+        { "no": "04", "name": "送祝福", "desc": "为亲友送上专属非遗祝福与心意" }
+      ],
+      "modules": [
+        { "no": "壹", "title": "智能文创商城", "desc": "城市记忆礼盒三档可选·IP 联名·盲盒经济，把一城记忆打包带走", "tag": "电商零售", "path": "mall", "img": "pendant-hero.jpg" },
+        { "no": "贰", "title": "匠心智绘定制", "desc": "上传照片或输入文字，AI 生成专属刺绣底稿，一人一图造一件孤品", "tag": "个性定制", "path": "custom", "img": "ai-draft.jpg" },
+        { "no": "叁", "title": "非遗美育课堂", "desc": "线上视频课＋线下体验课，盘金、结子等针法拆解，NFC 挂件充当随身私教", "tag": "双线教学", "path": "classroom", "img": "video-cover.jpg" },
+        { "no": "肆", "title": "纹样修复宝库", "desc": "老绣片自动补全还原，汇聚标准化数字纹样，让古老纹样重获新生", "tag": "数字保护", "path": "pattern", "img": "pattern-restore.jpg" },
+        { "no": "伍", "title": "文物纹样提取", "desc": "上传文物、老绣片照片，提取可复用的婺绣纹样，亦可定制成随身饰片", "tag": "纹样提取", "path": "metal", "img": "metal-cover.jpg" }
+      ],
+      "offline": [
+        { "no": "01", "title": "文旅空间与 AR 打卡", "desc": "与景区售卖店联动，把婺绣挂件升级为“数字门票”，寻宝集齐 IP 款式即可兑换 NFC 智能投影挂件。" },
+        { "no": "02", "title": "校园美育与科技教具", "desc": "走进幼儿园、中小学课后服务，NFC 全息投影挂件作为科技教具，让学生在碰触中“边玩边学”。" },
+        { "no": "03", "title": "非遗工坊与光影沙龙", "desc": "面向白领团建的慢生活刺绣减压沙龙，面向高端圈层的跨界联名展览，文化价值与商业价值双升。" }
+      ],
+      "sections": {
+        "nfcTitle": "NFC碰一碰·四大玩法",
+        "nfcSub": "手机轻轻一碰，即弹出AR影像与视频教程，新手也能轻松入门非遗技艺",
+        "modulesTitle": "六大核心模块",
+        "modulesSub": "刺绣DIY、文创商城、智绘定制、美育课堂、纹样修复与文物纹样提取，一站式体验非遗新生",
+        "offlineTitle": "线下生态 · 文旅融合",
+        "offlineSub": "联动景区、校园与高端场所，从实体交互到跨界资源整合"
+      },
+      "footer": {
+        "brand": "绣韵焕兴",
+        "line": "非遗婺绣 · 科技传承",
+        "cta": "扫码体验 · 到店咨询 · 定制下单"
+      }
+    }
+  },
+  {
+    "key": "exhibition",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "images": { "video": "video-cover.jpg", "scroll": "scroll.jpg" },
+      "introVideo": "videos/exhibition-intro.mp4",
+      "videoTitle": "婺绣百年风华",
+      "videoSub": "AI 生成 · 婺绣技艺与历史长卷",
+      "scrollBand": "粉墙黛瓦 · 婺州古村 · 绣坊灯火",
+      "quote": "针线守匠心，一针一线皆藏婺州山水与人情。",
+      "credTag": "非遗数字化传播",
+      "credTxt": "以高清视频与全息影像打破非遗传播的时空限制，降低初次接触的认知门槛，让更多人在第一眼就感受到婺绣“平、齐、细、密”的针法之美与文化底蕴。",
+      "timeline": [
+        { "era": "明清", "title": "婺州绣坊兴起", "desc": "婺绣因婺剧而兴，多用于婺剧戏服，绣坊遍布江南水乡、粉墙黛瓦之间。" },
+        { "era": "近代", "title": "针法代代相传", "desc": "“平、齐、细、密”的针法在绣娘指尖口传心授，延续百年。" },
+        { "era": "当代", "title": "非遗保护与复兴", "desc": "婺绣列入非物质文化遗产，传统技艺重回大众视野。" },
+        { "era": "未来", "title": "科技数字新生", "desc": "全息影像与 AI 技术让古老纹样在数字世界重获新生。" }
+      ]
+    }
+  },
+  {
+    "key": "custom",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "images": { "cartoon": "style-cartoon.jpg", "real": "style-real.jpg", "ink": "style-ink.jpg", "gold": "style-gold.jpg", "result": "ai-draft.jpg" },
+      "head": {
+        "cn": "匠心 · 智绘",
+        "sub": "专属认知空间 · 一人一图，造一件孤品",
+        "desc": "上传个人照片或输入文字（如婺州古建、喜鹊、牡丹），AI 即可生成符合婺绣审美的刺绣底稿"
+      },
+      "styles": [
+        { "key": "cartoon", "name": "Q 版卡通", "desc": "可爱灵动，适合挂件、伴手礼", "price": "简单款免费 · 复杂款 ¥ 69", "img": "style-cartoon.jpg" },
+        { "key": "real", "name": "传统原版", "desc": "细腻还原，贴近传统婺绣", "price": "简单款免费 · 复杂款 ¥ 89", "img": "style-real.jpg" },
+        { "key": "ink", "name": "水墨写意", "desc": "水墨晕染，写意江南", "price": "简单款免费 · 复杂款 ¥ 79", "img": "style-ink.jpg" },
+        { "key": "gold", "name": "金线描边", "desc": "金线勾边，端庄华贵", "price": "简单款免费 · 复杂款 ¥ 99", "img": "style-gold.jpg" }
+      ],
+      "hotWords": ["婺州古建", "喜鹊", "牡丹", "婺江月夜", "并蒂莲"],
+      "flow": ["选图", "生成", "预览", "下单"],
+      "orderTitle": "一键下单 · 手工绣制",
+      "orderDesc": "在线预览满意后，一键下单，由第三方工作室手工绣制并邮寄到家。从选图、生成到收件，一机一人，把“买成品”升级为“造孤品”。"
+    }
+  },
+  {
+    "key": "pattern",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "images": { "before": "pattern-before.jpg", "after": "pattern-after.jpg" },
+      "head": {
+        "cn": "数字纹样库",
+        "sub": "非遗数字化保护 · AI 修复与素材提取",
+        "desc": "上传破损、褪色的老绣片，AI 自动补全残缺图案、还原历史色彩，并汇聚为标准化的数字纹样库"
+      },
+      "valueTag": "文化责任感",
+      "valueTxt": "数字化修复既是对非遗的保护，也为前期设计定制、文创联动开发提供源源不断的素材，让古老纹样重获数字新生、代代相传。",
+      "patterns": [
+        { "name": "喜鹊报春", "desc": "喜鹊与梅枝，寓意报喜", "img": "pattern-magpie.jpg" },
+        { "name": "富贵牡丹", "desc": "牡丹盛开，寓意富贵", "img": "pattern-peony.jpg" },
+        { "name": "婺州古建", "desc": "粉墙黛瓦，婺州风貌", "img": "pattern-wuzhou.jpg" },
+        { "name": "祥云纹样", "desc": "云纹连绵，寓意吉祥", "img": "pattern-cloud.jpg" }
+      ],
+      "repairs": [
+        { "name": "少量修复", "desc": "局部破损、褪色，单处纹样还原", "price": "¥ 120" },
+        { "name": "中量修复", "desc": "数处破损、褪色，纹样局部还原", "price": "¥ 260" },
+        { "name": "多量修复", "desc": "大面积残损、复杂纹样完整还原", "price": "¥ 480" }
+      ]
+    }
+  },
+  {
+    "key": "classroom",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "head": {
+        "cn": "非遗美育课堂",
+        "sub": "线上视频课 · 线下体验课 · 双线联动",
+        "desc": "从启蒙到精进的完整闭环：线上学理论、练针法，线下进工作室亲手体验"
+      },
+      "courses": [
+        { "level": "入门课", "badge": "零基础友好", "price": "免费", "mods": ["理论课 · 婺绣历史与文化", "实践课 · 基础针法入门实操"] },
+        { "level": "进阶课", "badge": "从会到精", "price": "¥ 199", "mods": ["理论课 · 纹样构图与配色", "实践课 · 复杂针法进阶实操"] }
+      ],
+      "stitches": [
+        { "char": "平", "name": "平针绣", "desc": "针脚平顺匀净如镜、排线紧密不露底色，是婺绣最根本的绣法，绣面平整服帖，尽显丝线光泽。", "img": "stitch-ping.jpg" },
+        { "char": "盘", "name": "盘金绣", "desc": "金线盘绕纹样轮廓、钉缀固定金光沉稳，多用于婺剧戏服礼器，显贵气于一身，历久而不褪色。", "img": "stitch-panjin.jpg" },
+        { "char": "结", "name": "结子绣", "desc": "丝线绕结成粒如珠、颗颗饱满立体凸起，多用于点缀花蕊纹样，绣面更为丰盈，粒粒凹凸可爱。", "img": "stitch-jiezi.jpg" },
+        { "char": "锁", "name": "锁针绣", "desc": "针脚环环相扣如链、线条挺括连贯不断，最宜走边勾线与勾筋，轮廓挺立不散，久绣而形不变。", "img": "stitch-suo.jpg" }
+      ],
+      "tutorTitle": "NFC 智能挂件 · 随身私教",
+      "tutorDesc": "课程配套邮寄实物材料包，并附 NFC 智能挂件。手机碰一碰，即可弹出当前步骤的视频教程，相当于把一位“随身私教”带回家。"
+    }
+  },
+  {
+    "key": "mall",
+    "version": 1,
+    "updatedAt": "2026-10-17",
+    "data": {
+      "images": { "pendant": "pendant-hero.jpg", "hero": "/static/city-memory-hero.jpg" },
+      "head": {
+        "cn": "智能文创商城",
+        "sub": "买回去，就能看、能听 · 非遗文创",
+        "desc": "主推城市文创记忆礼盒（三档可选），把义乌丝路商贸、东阳木雕、永康五金、浦江板凳龙一一装进盒子"
+      },
+      "heroProd": {
+        "badge": "主推 · 一城记忆入盒",
+        "title": "城市文创记忆礼盒",
+        "desc": "礼盒盖子微启，义乌丝路商贸文创、东阳木雕纹样、永康五金雕塑纹样、浦江板凳龙符号静静躺在其中，非遗文创 × 城市记忆，开箱即是金华"
+      },
+      "tiers": [
+        { "name": "低档款", "price": "¥ 99", "ratio": "商城文创随机 × 3 + 城市记忆文创 × 1", "desc": "从商城中随机抽取 3 件日常文创，再搭配 1 件城市记忆文创，开箱有惊喜。" },
+        { "name": "中档款", "price": "¥ 199", "ratio": "商城文创组合 + 城市记忆文创 × 2", "desc": "商城文创自由组合，再加 2 件城市记忆文创，心意与体面兼顾。" },
+        { "name": "高档款", "price": "¥ 399", "ratio": "商城文创 × 5 + 城市记忆文创 × 3", "desc": "5 件商城文创搭配 3 件城市记忆文创，层层铺满一城记忆，送礼首选。" }
+      ],
+      "memories": ["义乌丝路商贸", "东阳木雕纹样", "永康五金雕塑纹样", "浦江板凳龙符号"],
+      "products": [
+        { "name": "婺绣香囊", "desc": "手工刺绣，随身纳福", "price": "¥ 88 起", "img": "product-sachet.jpg" },
+        { "name": "婺绣丝巾", "desc": "一方丝巾，婉约国风", "price": "¥ 128 起", "img": "product-scarf.jpg" },
+        { "name": "婺绣枕巾", "desc": "刺绣枕巾，安眠婺韵", "price": "¥ 98 起", "img": "product-pillow.jpg" },
+        { "name": "婺剧脸谱摆件", "desc": "勾脸成谱，婺剧风华", "price": "¥ 118 起", "img": "product-wuju-mask.jpg" },
+        { "name": "NFC 投影挂件", "desc": "碰一碰弹出 AR 影像与故事", "price": "¥ 168 起", "img": "product-pendant.jpg" },
+        { "name": "婺绣书签", "desc": "一枚书签，案头婺韵", "price": "¥ 36 起", "img": "product-bookmark.jpg" },
+        { "name": "婺绣杯垫", "desc": "绣纹杯垫，茶席生香", "price": "¥ 46 起", "img": "product-coaster.jpg" }
+      ],
+      "plays": [
+        { "no": "壹", "title": "IP 联名", "desc": "推出十二生肖定制、婺州古建等主题款，把婺绣与大众熟悉的 IP 相连。", "tags": ["十二生肖定制", "婺州古建主题"] },
+        { "no": "贰", "title": "盲盒经济", "desc": "设置基础款与隐藏款，利用随机性带动年轻人复购与收藏。", "tags": ["基础款", "全息投影限量挂件", "传承人签名单品"] }
+      ],
+      "converts": [
+        { "title": "景区数字化寻宝兑换", "desc": "与景区售卖店联动，把挂件升级为“数字门票”，集齐 IP 款式即可兑换 NFC 智能投影挂件。" },
+        { "title": "高端酒店联名预售", "desc": "与高端酒店联名预售，让文创走进品质场景，实现多维度的商业转化。" }
+      ],
+      "channelTitle": "线上线下联动渠道",
+      "channelDesc": "抖音、淘宝等主流电商平台同步上架，短视频种草、科技直播间带货，构建“黑科技 + 老手艺”的新型销售模式。",
+      "channelTags": ["抖音", "淘宝", "小红书", "短视频种草", "科技直播间"]
+    }
+  },
+  {
+    "key": "metal",
+    "version": 1,
+    "updatedAt": "2026-10-20",
+    "data": {
+      "images": {
+        "cover": "metal-cover.jpg",
+        "s1": "metal-sample-1.jpg",
+        "s2": "metal-sample-2.jpg",
+        "s3": "metal-sample-3.jpg",
+        "s4": "metal-sample-4.jpg"
+      },
+      "head": {
+        "cn": "文物纹样提取",
+        "sub": "从文物、老绣片中提取可复用的婺绣纹样",
+        "desc": "上传文物或老绣片照片，自动提取清晰纹样线条、生成专属纹样底稿，并可制成随身金属饰片"
+      },
+      "videoTitle": "文物纹样提取 · 短片",
+      "videoSub": "从文物照片到可用纹样，提取全过程一看便知",
+      "priceTitle": "定制价 ¥ 699",
+      "priceDesc": "含纹样提取与设计、记忆金属成型加工、定制包装与寄送到家",
+      "submitTitle": "提交照片 · 定制专属纹样",
+      "submitDesc": "上传一张含纹样的照片（老绣片、剪纸、纹样图均可），我们据此制作同款纹样的记忆金属饰片",
+      "submitBtn": "提交照片定制",
+      "uploadTip": "点击上传照片",
+      "uploadHint": "纹样越清晰，还原越准确",
+      "samples": [
+        { "name": "缠枝牡丹", "desc": "牡丹缠枝，雍容富贵", "img": "metal-sample-1.jpg" },
+        { "name": "祥云纹", "desc": "云纹卷舒，寓意吉祥", "img": "metal-sample-2.jpg" },
+        { "name": "喜鹊登梅", "desc": "鹊踏梅枝，喜上眉梢", "img": "metal-sample-3.jpg" },
+        { "name": "婺州古建", "desc": "粉墙黛瓦，婺州风貌", "img": "metal-sample-4.jpg" }
+      ],
+      "steps": [
+        { "no": "壹", "title": "提交照片", "desc": "上传含纹样的照片，注明尺寸与用途" },
+        { "no": "贰", "title": "纹样提取", "desc": "从照片中提取清晰纹样线条，确认底稿" },
+        { "no": "叁", "title": "金属成型", "desc": "记忆金属浮雕成型，可弯折可复原" },
+        { "no": "肆", "title": "包装寄送", "desc": "定制礼盒包装，寄送到家" }
+      ],
+      "footerLine": "非遗婺绣 · 文物纹样提取"
+    }
+  }
+]
